@@ -1,0 +1,6 @@
+# Robots.txt for GetMeAQRCode
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://getmeaqrcode.com/sitemap.xml
