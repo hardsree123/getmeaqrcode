@@ -9,7 +9,8 @@
   const authorizedHosts = [
     'getmeaqrcode.com',
     'www.getmeaqrcode.com',
-    'getmeaqrcode.pages.dev', // Cloudflare Pages preview
+    'getmeaqrcode.vercel.app', // Vercel deployment
+    'getmeaqrcode.pages.dev',  // Cloudflare Pages deployment
     'localhost',
     '127.0.0.1',
     '' // Local file:// protocol testing

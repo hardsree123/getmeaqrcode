@@ -1,6 +1,9 @@
-# QR Studio Pro — AI-Powered QR Code SaaS Generator
+# GetMeAQRCode — AI-Powered QR Code SaaS Generator
 
 A modern, high-performance, and feature-rich QR Code SaaS Generator built with **pure web technologies (HTML5, CSS3, JavaScript ES6+, HTML5 Canvas, and Vector SVG)** with zero external dependencies and zero build steps.
+
+**Live URL**: [https://getmeaqrcode.vercel.app](https://getmeaqrcode.vercel.app)  
+**Official Domain**: [https://getmeaqrcode.com](https://getmeaqrcode.com)
 
 Benchmarked against [QRCodeCreator.com](https://qrcodecreator.com/) and QRCode Monkey, with an added **AI Art Generation Studio** and **SaaS Analytics Engine**.
 
