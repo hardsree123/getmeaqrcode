@@ -703,14 +703,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Theme Switcher
+  // Theme Switcher (Defaults to Clean Light Theme)
   const themeToggle = document.getElementById('theme-toggle');
   const html = document.documentElement;
-  const savedTheme = localStorage.getItem('qr_theme') || 'dark';
+  const savedTheme = localStorage.getItem('qr_theme') || 'light';
   html.setAttribute('data-theme', savedTheme);
 
   themeToggle.addEventListener('click', () => {
-    const cur = html.getAttribute('data-theme');
+    const cur = html.getAttribute('data-theme') || 'light';
     const next = cur === 'dark' ? 'light' : 'dark';
     html.setAttribute('data-theme', next);
     localStorage.setItem('qr_theme', next);
